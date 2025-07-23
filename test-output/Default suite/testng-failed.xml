@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.OrganizationTest">
+      <class name="tests.AppTest">
         <methods>
           <include name="takeScreenshot"/>
-          <include name="OrganizationPagePngFunctionality"/>
+          <include name="verifRolesFunc"/>
           <include name="beforeMethod"/>
-          <include name="OrganizationPageGifFunctionality"/>
           <include name="beforeSuite"/>
-          <include name="varifyOrganizationPageFunctionality"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- tests.OrganizationTest -->
+      </class> <!-- tests.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

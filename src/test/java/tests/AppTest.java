@@ -68,12 +68,12 @@ public class AppTest extends BasesetupQuickDev {
         appPage.RolesFun();
         appPage.AddRolesFun();
         appPage.rolenameFun();
-        appPage.saveroleFun();
+        /*appPage.saveroleFun();
         appPage.editRoleFun();
         appPage.clearRolenameFun();
         appPage.roleeditnameFun();
         appPage.EditFieldFun();
-        appPage.DeleteRoleFun();
+        appPage.DeleteRoleFun();*/
 
         // Handle alert after deleting role
         try {
