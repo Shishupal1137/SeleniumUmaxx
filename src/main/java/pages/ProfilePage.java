@@ -20,7 +20,7 @@ public class ProfilePage extends SafeActionsQuickDev{
 	
 	
 	public void clickonNameFun() {
-		safeExplicitWait(clickonNameLoc, SHORTWAIT);
+		safeExplicitWait(clickonNameLoc, LONGWAIT);
 		safeClick(clickonNameLoc);
 		Reporter.log("Succesfully click on user name");
 		BasesetupQuickDev.infoLog(clickonNameLoc);

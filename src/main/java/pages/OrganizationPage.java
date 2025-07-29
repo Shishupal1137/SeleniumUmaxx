@@ -6,7 +6,9 @@ import common.BasesetupQuickDev;
 import common.SafeActionsQuickDev;
 
 public class OrganizationPage extends SafeActionsQuickDev{
-	String OrginizationLoc = "//div[text() = 'Organization']";
+	
+	 String clickonNameLoc = "//p[text()= 'Shishupal Singh']";
+	String OrginizationLoc = "//span[text() = 'Organization']";
 	String EnterDescriptionLoc = "//label[text() = 'Description']//following::textarea[1]";
 	String PhonenumLoc = "//label[text() = 'Phone']//following::input[1]";
 	String SaveButtonLoc = "(//button[text() = ' Save '])[2]";
@@ -14,6 +16,13 @@ public class OrganizationPage extends SafeActionsQuickDev{
 	String UploadLogoLoc = "//button[text() = ' Upload Logo ']";
 	String ImageUploadLoc = "//input[@type = 'file']";
 	
+	
+	public void clickonNnameFun() {
+		safeExplicitWait(clickonNameLoc, SHORTWAIT);
+		safeClick(clickonNameLoc);
+		Reporter.log("Succesfully click on user name");
+		BasesetupQuickDev.infoLog(clickonNameLoc);
+	}
 	
 	public void clickOnOrganizationFun() {
 		safeExplicitWait(OrginizationLoc, NORAMALWAIT);

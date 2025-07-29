@@ -3,13 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.Allurereport">
+      <class name="tests.ProfileTest">
         <methods>
-          <include name="verifyGoogleLogoIsDisplayed"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="captureScreenshot"/>
+          <include name="startTest"/>
+          <include name="tearDownSuite"/>
+          <include name="setupSuite"/>
+          <include name="VerifyProfileFunctionality"/>
         </methods>
-      </class> <!-- tests.Allurereport -->
+      </class> <!-- tests.ProfileTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

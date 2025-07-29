@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" name="Failed suite [SequentialSuite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="1" name="QuickDev-Sanity-Test(failed)" verbose="2">
+    <classes>
+      <class name="tests.AppTest">
+        <methods>
+          <include name="captureScreenshot"/>
+          <include name="verifRolesFunc"/>
+          <include name="startTest"/>
+          <include name="tearDownSuite"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- tests.AppTest -->
+    </classes>
+  </test> <!-- QuickDev-Sanity-Test(failed) -->
+</suite> <!-- Failed suite [SequentialSuite] -->
