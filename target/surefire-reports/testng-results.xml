@@ -1,119 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Succesfully click on user name]]>
-    </line>
-    <line>
-      <![CDATA[Succesfully Click On Profile]]>
-    </line>
-    <line>
-      <![CDATA[Succesfully Click On Update Profile]]>
-    </line>
-    <line>
-      <![CDATA[Succesfully Choose image]]>
-    </line>
-    <line>
-      <![CDATA[Succesfully Saved Image]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-07-29T17:15:18 IST" name="Suite" finished-at="2025-07-29T17:15:45 IST" duration-ms="27866">
+  <suite started-at="2025-07-30T17:05:17 IST" name="Suite" finished-at="2025-07-30T17:05:17 IST" duration-ms="226">
     <groups>
     </groups>
-    <test started-at="2025-07-29T17:15:18 IST" name="Test" finished-at="2025-07-29T17:15:45 IST" duration-ms="27866">
-      <class name="tests.ProfileTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.ProfileTest@14fc5f04]" started-at="2025-07-29T17:14:52 IST" name="setupSuite" finished-at="2025-07-29T17:15:18 IST" duration-ms="25510" status="PASS">
+    <test started-at="2025-07-30T17:05:17 IST" name="Test" finished-at="2025-07-30T17:05:17 IST" duration-ms="226">
+      <class name="tests.JenkinsTest">
+        <test-method signature="additionTest()[pri:0, instance:tests.JenkinsTest@2b40ff9c]" started-at="2025-07-30T17:05:17 IST" name="additionTest" finished-at="2025-07-30T17:05:17 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ProfileTest@14fc5f04]" started-at="2025-07-29T17:15:18 IST" name="startTest" finished-at="2025-07-29T17:15:33 IST" duration-ms="15562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ProfileTest.VerifyProfileFunctionality()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- additionTest -->
+        <test-method signature="falseConditionTest()[pri:0, instance:tests.JenkinsTest@2b40ff9c]" started-at="2025-07-30T17:05:17 IST" name="falseConditionTest" finished-at="2025-07-30T17:05:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="VerifyProfileFunctionality()[pri:1, instance:tests.ProfileTest@14fc5f04]" started-at="2025-07-29T17:15:33 IST" name="VerifyProfileFunctionality" finished-at="2025-07-29T17:15:45 IST" duration-ms="11730" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Succesfully click on user name]]>
-            </line>
-            <line>
-              <![CDATA[Succesfully Click On Profile]]>
-            </line>
-            <line>
-              <![CDATA[Succesfully Click On Update Profile]]>
-            </line>
-            <line>
-              <![CDATA[Succesfully Choose image]]>
-            </line>
-            <line>
-              <![CDATA[Succesfully Saved Image]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyProfileFunctionality -->
-        <test-method is-config="true" signature="captureScreenshot(java.lang.reflect.Method)[pri:0, instance:tests.ProfileTest@14fc5f04]" started-at="2025-07-29T17:15:45 IST" name="captureScreenshot" finished-at="2025-07-29T17:15:45 IST" duration-ms="267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ProfileTest.VerifyProfileFunctionality()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- falseConditionTest -->
+        <test-method signature="printTest()[pri:0, instance:tests.JenkinsTest@2b40ff9c]" started-at="2025-07-30T17:05:17 IST" name="printTest" finished-at="2025-07-30T17:05:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProfileTest@14fc5f04]" started-at="2025-07-29T17:15:45 IST" name="tearDownSuite" finished-at="2025-07-29T17:15:46 IST" duration-ms="784" status="PASS">
+        </test-method> <!-- printTest -->
+        <test-method signature="stringEqualityTest()[pri:0, instance:tests.JenkinsTest@2b40ff9c]" started-at="2025-07-30T17:05:17 IST" name="stringEqualityTest" finished-at="2025-07-30T17:05:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownSuite -->
-      </class> <!-- tests.ProfileTest -->
-      <class name="tests.Demo">
-        <test-method signature="test1()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test1" finished-at="2025-07-29T17:15:45 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- stringEqualityTest -->
+        <test-method signature="trueConditionTest()[pri:0, instance:tests.JenkinsTest@2b40ff9c]" started-at="2025-07-30T17:05:17 IST" name="trueConditionTest" finished-at="2025-07-30T17:05:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test10()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test10" finished-at="2025-07-29T17:15:45 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test10 -->
-        <test-method signature="test2()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test2" finished-at="2025-07-29T17:15:45 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test3" finished-at="2025-07-29T17:15:45 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test4" finished-at="2025-07-29T17:15:45 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test5()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test5" finished-at="2025-07-29T17:15:45 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method signature="test6()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test6" finished-at="2025-07-29T17:15:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method signature="test7()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test7" finished-at="2025-07-29T17:15:45 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method signature="test8()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test8" finished-at="2025-07-29T17:15:45 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8 -->
-        <test-method signature="test9()[pri:0, instance:tests.Demo@55de24cc]" started-at="2025-07-29T17:15:45 IST" name="test9" finished-at="2025-07-29T17:15:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-      </class> <!-- tests.Demo -->
+        </test-method> <!-- trueConditionTest -->
+      </class> <!-- tests.JenkinsTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T17:59:51 IST" name="Suite" finished-at="2025-07-29T17:59:51 IST" duration-ms="272">
+  <suite started-at="2025-07-29T20:02:18 IST" name="Suite" finished-at="2025-07-29T20:02:18 IST" duration-ms="538">
     <groups>
     </groups>
-    <test started-at="2025-07-29T17:59:51 IST" name="Test" finished-at="2025-07-29T17:59:51 IST" duration-ms="272">
+    <test started-at="2025-07-29T20:02:18 IST" name="Test" finished-at="2025-07-29T20:02:18 IST" duration-ms="538">
       <class name="tests.JenkinsTest">
-        <test-method signature="additionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T17:59:51 IST" name="additionTest" finished-at="2025-07-29T17:59:51 IST" duration-ms="88" status="PASS">
+        <test-method signature="additionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T20:02:18 IST" name="additionTest" finished-at="2025-07-29T20:02:18 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- additionTest -->
-        <test-method signature="falseConditionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T17:59:51 IST" name="falseConditionTest" finished-at="2025-07-29T17:59:51 IST" duration-ms="6" status="PASS">
+        <test-method signature="falseConditionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T20:02:18 IST" name="falseConditionTest" finished-at="2025-07-29T20:02:18 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- falseConditionTest -->
-        <test-method signature="printTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T17:59:51 IST" name="printTest" finished-at="2025-07-29T17:59:51 IST" duration-ms="3" status="PASS">
+        <test-method signature="printTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T20:02:18 IST" name="printTest" finished-at="2025-07-29T20:02:18 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTest -->
-        <test-method signature="stringEqualityTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T17:59:51 IST" name="stringEqualityTest" finished-at="2025-07-29T17:59:51 IST" duration-ms="5" status="PASS">
+        <test-method signature="stringEqualityTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T20:02:18 IST" name="stringEqualityTest" finished-at="2025-07-29T20:02:18 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stringEqualityTest -->
-        <test-method signature="trueConditionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T17:59:51 IST" name="trueConditionTest" finished-at="2025-07-29T17:59:51 IST" duration-ms="8" status="PASS">
+        <test-method signature="trueConditionTest()[pri:0, instance:tests.JenkinsTest@7486b455]" started-at="2025-07-29T20:02:18 IST" name="trueConditionTest" finished-at="2025-07-29T20:02:18 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trueConditionTest -->
